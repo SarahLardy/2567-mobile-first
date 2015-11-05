@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*------------------------*/
+
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.row {
+	overflow: auto;
+}
+
+body {
+	color: #3e3e3e;
+	font-family: 'Quicksand', sans-serif;
+}
+/*---------Columns---------------*/
+
+.col-1-1 {
+	width: 100%;
+}
+
+.col-1-4 {
+	width: 25%;
+	float: left;
+}
+
+.col-2-3 {
+	width: 66.66%;
+}
+
+
+/*------------------------*/
+
+/*--------HEADER SECTION-------*/
+
+ul {
+	display: inline-block;
+	list-style: none;
+	float: right;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 70px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #81c897;
+}
+
+#header {
+	background-color: #d6eacc;
+	padding: 0;
+}
+
+#logo {
+	padding-top: 50px;
+}
+
+
+/*--------HERO SECTION------*/
+#hero {
+	position: relative;
+	background-size: cover;
+	background: url(../img/hero-image.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	min-height: 650px;
+	padding-top: 10px;
+}
+
+span {
+	color: white;
+}
+
+#hero p {
+	width: 500px;
+	padding-left: 400px;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+#button-one {
+	text-align: center;
+	font-size: 35px;
+	padding-top: 30px;
+	color: white;
+	font-weight: lighter;
+}
+
+#button-one a {
+	background-color: #81c897;
+    padding: 10px 35px;
+    font-size: 35px;
+    color: white;
+    font-weight: lighter;
+}
+
+#button-two {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 30px;
+	font-weight: lighter;
+	
+}
+
+#button-two a {
+	background-color: #d6eacc;
+    padding: 7px 25px;
+    font-size: 20px;
+    color: #81c897;
+    font-weight: lighter;
+}
+
+
+h1 {
+	text-align: center;
+	padding-top: 200px;
+	font-size: 60px;
+	color: #3e3e3e;
+}
+
+/*------------------------*/
+
+/*--------WORK SECTION------*/
+
+#work {
+	background-color: #d6eacc;
+	height: 600px;
+	padding-top: 10px;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 25px;
+}
+
+#work h3 p {
+	width: 60px;
+}
+
+/*------------------------*/
+
+/*--------OUR TEAM SECTION-----*/
+
+#our-team {
+	background-color: #81c897;
+	height: 750px;
+	padding-top: 10px;
+}
+
+#columns-two {
+	-webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+	list-style-type: none;
+	padding: 0;
+}
+
+#paragraph {
+	text-align: center;
+	width: 520px;
+	padding-left: 300px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	color: white;
+}
+
+
+/*------------------------*/
+
+/*--------FOOTER------*/
+
+footer {
+	background-color: #d6eacc;
+}
+
+footer p {
+	padding-left: 300px;
+	padding-bottom: 40px;
+}
+
+/*------------------------*/
+
+@media screen and (max-width: 480px) {
+	.wrapper {
+		width: 95%;
+	}
+}
